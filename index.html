@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="index.js">
+   <script src="script.js"></script>
     <title>Toyota Fortuner</title>
 </head>
 <body>
     <header id="header">
-        <nav id="navi-bar">
+        <nav id="navbar">
+            <h2 class="logo">Toyota Fortuner</h2>
                 <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#features">Features</a></li>
@@ -19,17 +20,39 @@
                 </ul>
         </nav>
     </header>
-    <section id="introduction">
-        <div class="introduction">
-        <h1>Welcome to the Toyota Fortuner Experience</h1>
-        <p>Discover the power, style, and versatility of the Toyota Fortuner. Whether you're navigating city streets or exploring off-road trails, the Fortuner is designed to elevate your driving experience.</p>
-        <div>
-            <h2>Premuim Materials</h2>
-            <p>Experience the luxury of premium materials in every detail of the Toyota Fortuner. From the soft-touch surfaces to the high-quality upholstery, every element is crafted to provide comfort and sophistication.</p>
-            <div id="img-fortuner">
-                <img src="" alt="picture ng fortuner">
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h1>Welcome to the Toyota Fortuner Experience</h1>
+                <p>Discover the power, style, and versatility of the Toyota Fortuner. 
+                    Whether you're navigating city streets or exploring off-road trails, 
+                    the Fortuner is designed to elevate your driving experience.
+                </p>
+                <button id="learnMoreButton">Learn More</button>
+                <button id="exploreButton">Explore now</button>
+                <p id="message"></p>
+        </div>
+        <div class="hero-image">
+            <img src="fortuner2.jpg" alt="fortuner">
+        </div>
+    </section>
+
+    <section id="features">
+        <h2>Features</h2>
+        <div class="features-container">
+            <div class="feature-box">
+                <h3>Premuim Materials</h3>
+                <p>
+                    Experience the luxury of premium materials in the Toyota Fortuner.
+                </p>
+            </div>
+
+            <div class="feature-box">
+                <h3>Advanced Technology</h3>
+                <p>
+                    Stay connected and entertained with the latest technology features in the Toyota Fortuner.
+                </p>
             </div>
         </div>
-    </div>
+    </section>
 </body>
 </html>
