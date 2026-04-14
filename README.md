@@ -16,6 +16,7 @@ This project is a responsive single page product landing page built using HTML5,
 - Git and Github
 
 ## Live Demo
+https://brent-b-c.github.io/CC14ProductLandingPage/
 
 ## Repository
 https://github.com/brent-b-c/CC14ProductLandingPage.git
